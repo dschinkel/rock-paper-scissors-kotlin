@@ -3,21 +3,11 @@ import kotlin.test.assertEquals
 
 class RockPaperScissors {
 
-    @Test
-    fun `same inputs produce a tie`(){
-        val playerOneInput = "rock"
-        val playerTwoInput = "rock"
-
-        val result = play(playerOneInput, playerTwoInput)
-
-        assertEquals(result, "tie")
-    }
-
-    private fun play(playerOneInput: String, playerTwoInput: String): String {
+    fun play(playerOneInput: String, playerTwoInput: String): String {
+        if (playerTwoInput == "scissors") {
+            return "rock beats scissors"
+        }
         return "tie"
     }
-
-
-
 
 }
