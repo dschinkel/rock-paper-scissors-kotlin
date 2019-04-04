@@ -1,5 +1,3 @@
-import org.junit.jupiter.api.BeforeAll
-import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.TestInstance
 import kotlin.test.assertEquals
@@ -30,4 +28,13 @@ class RockPaperScissorsTest {
         assertEquals(result, "rock beats scissors")
     }
 
+    @Test
+    fun `paper beats rock`() {
+        val playerOneInput = "paper"
+        val playerTwoInput = "rock"
+
+        var result = game.play(playerOneInput, playerTwoInput)
+
+        assertEquals(result, "paper beats rock")
+    }
 }
