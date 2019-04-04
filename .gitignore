@@ -1,0 +1,24 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+
+# Package Files #
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+.gradle/
+build/
+/bin/
+.classpath
+.project
+.settings/
+.DS_Store
+.idea
+*.iml
+
