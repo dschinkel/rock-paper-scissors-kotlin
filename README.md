@@ -11,3 +11,6 @@ Your task is to create the core logic that checks which gesture wins in a matchu
 | scissors  | paper     | scissors cuts paper |
 | rock      | rock      | tie                 |
 ... and so on. Good luck!
+
+
+This kata was paired on by Dave Schinkel and Turk

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3526ca0b-18bf-46f9-a036-6176b5ff2bcc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/RockPaperScissors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RockPaperScissors.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RockPaperScissorsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RockPaperScissorsTest.kt" afterDir="false" />
-    </list>
+    <list default="true" id="3526ca0b-18bf-46f9-a036-6176b5ff2bcc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -24,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RockPaperScissors.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -45,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RockPaperScissorsTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#107#0" expanded="true" />
               </folding>
@@ -135,6 +132,13 @@
             </path>
             <path>
               <item name="rock.paper.scissors" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rock.paper.scissors" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rock.paper.scissors" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -158,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554412122522" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554412372490" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -255,17 +259,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554395116443</updated>
-      <workItem from="1554395118779" duration="9835000" />
+      <workItem from="1554395118779" duration="10178000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 46m 56s.xml">
-      <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 47m 10s.xml">
-      <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 47m 25s.xml">
       <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
     </history-entry>
@@ -290,9 +288,15 @@
     <history-entry file="RockPaperScissorsTest_same_inputs_produce_a_tie - 2019.04.04 at 16h 06m 48s.xml">
       <configuration name="RockPaperScissorsTest.same inputs produce a tie" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RockPaperScissorsTest_same_inputs_produce_a_tie - 2019.04.04 at 16h 08m 35s.xml">
+      <configuration name="RockPaperScissorsTest.same inputs produce a tie" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 16h 08m 43s.xml">
+      <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9835000" />
+    <option name="totallyTimeSpent" value="10178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="23" width="1920" height="1010" extended-state="0" />
@@ -306,15 +310,15 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.34640524" />
-      <window_info anchor="bottom" id="Terminal" weight="0.44117647" />
+      <window_info anchor="bottom" id="Terminal" weight="0.49346405" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32897604" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.60784316" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26361656" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26361656" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,6 +337,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/RockPaperScissors.spec.kt">
@@ -366,6 +396,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RockPaperScissors.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -376,17 +413,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RockPaperScissors.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RockPaperScissorsTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#107#0" expanded="true" />
           </folding>
