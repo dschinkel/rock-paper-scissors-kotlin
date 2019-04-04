@@ -9,14 +9,12 @@ class RockPaperScissorsTest {
 
     @Test
     fun `same inputs produce a tie`() {
-        val playerOneInput = "rock"
-        val playerTwoInput = "rock"
+        val list = listOf("rock", "scissors", "paper")
 
-        val result = game.play(playerOneInput, playerTwoInput)
-
-        assertEquals(result, "tie")
+        list.forEach {
+            assertEquals(game.play(it, it), "tie")
+        }
     }
-
 
     @Test
     fun `rock beats scissors`() {
@@ -36,5 +34,15 @@ class RockPaperScissorsTest {
         var result = game.play(playerOneInput, playerTwoInput)
 
         assertEquals(result, "paper beats rock")
+    }
+
+    @Test
+    fun `scissors beat paper`() {
+        val playerOneInput = "scissors"
+        val playerTwoInput = "paper"
+
+        var result = game.play(playerOneInput, playerTwoInput)
+
+        assertEquals(result, "scissors beats paper")
     }
 }

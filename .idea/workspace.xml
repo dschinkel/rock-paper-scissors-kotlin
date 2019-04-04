@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3526ca0b-18bf-46f9-a036-6176b5ff2bcc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/RockPaperScissors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/RockPaperScissors.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RockPaperScissors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RockPaperScissors.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RockPaperScissorsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RockPaperScissorsTest.kt" afterDir="false" />
     </list>
@@ -23,20 +21,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RockPaperScissors.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="135">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RockPaperScissorsTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="198">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#107#0" expanded="true" />
               </folding>
@@ -54,6 +64,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>winnerMessage</find>
+    </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
@@ -69,12 +82,13 @@
         <option value="$PROJECT_DIR$/src/test/java/RockPaperScissors.spec.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/test/java/RockPaperScissorsTest.kt" />
         <option value="$PROJECT_DIR$/src/main/java/RockPaperScissors.kt" />
+        <option value="$PROJECT_DIR$/src/test/java/RockPaperScissorsTest.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="17" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1010" />
@@ -144,7 +158,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554406095280" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554412122522" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -211,9 +225,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RockPaperScissorsTest.same inputs produce a tie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rock.paper.scissors.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RockPaperScissorsTest" />
+      <option name="METHOD_NAME" value="same inputs produce a tie" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RockPaperScissorsTest" />
+        <item itemvalue="JUnit.RockPaperScissorsTest.same inputs produce a tie" />
         <item itemvalue="JUnit.RockPaperScissorsTest.rock beats scissors" />
         <item itemvalue="JUnit.RockPaperScissorsTest.rock beats scissors$rock_paper_scissors" />
         <item itemvalue="JUnit.RockPaperScissors" />
@@ -230,47 +255,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554395116443</updated>
-      <workItem from="1554395118779" duration="5600000" />
+      <workItem from="1554395118779" duration="9835000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 05m 11s.xml">
+    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 46m 56s.xml">
       <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 05m 23s.xml">
+    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 47m 10s.xml">
       <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 06m 29s.xml">
+    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 47m 25s.xml">
       <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 09m 25s.xml">
+    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 57m 07s.xml">
       <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 10m 17s.xml">
+    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 15h 40m 26s.xml">
       <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 16m 29s.xml">
+    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 15h 45m 57s.xml">
       <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 18m 53s.xml">
+    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 15h 58m 19s.xml">
       <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 19m 14s.xml">
+    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 16h 00m 59s.xml">
       <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 19m 24s.xml">
+    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 16h 04m 33s.xml">
       <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2019.04.04 at 14h 26m 22s.xml">
-      <configuration name="RockPaperScissorsTest" configurationId="JUnit" />
+    <history-entry file="RockPaperScissorsTest_same_inputs_produce_a_tie - 2019.04.04 at 16h 06m 48s.xml">
+      <configuration name="RockPaperScissorsTest.same inputs produce a tie" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5600000" />
+    <option name="totallyTimeSpent" value="9835000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1010" extended-state="0" />
+    <frame x="17" y="23" width="1920" height="1010" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -281,7 +306,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.34640524" />
-      <window_info anchor="bottom" id="Terminal" weight="0.21459696" />
+      <window_info anchor="bottom" id="Terminal" weight="0.44117647" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32897604" />
@@ -289,7 +314,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26797387" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26361656" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,16 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="45" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.0.0/fadbe39cb1fd01b65e5114b0e0d140af0621a8ac/junit-jupiter-api-5.0.0-sources.jar!/org/junit/jupiter/api/TestInstance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
@@ -351,20 +366,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RockPaperScissorsTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#107#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RockPaperScissors.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="135">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RockPaperScissorsTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
