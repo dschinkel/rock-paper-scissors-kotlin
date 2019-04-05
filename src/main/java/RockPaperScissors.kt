@@ -22,12 +22,10 @@ class RockPaperScissors {
                 (playerOneInput == "scissors" && playerTwoInput == "paper")
     }
 
-    private fun winnerMessage(
-        winner: String,
-        loser: String
-    ) = if (isATie(winner, loser))
-        "tie"
-    else getWinningDisplayMessage(winner, loser)
+    private fun winnerMessage(winner: String, loser: String) =
+            if (isATie(winner, loser))
+                "tie"
+            else getWinningDisplayMessage(winner, loser)
 
     private fun getWinningDisplayMessage(winner: String, loser: String) = "$winner beats $loser"
 }
