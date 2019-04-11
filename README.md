@@ -18,23 +18,25 @@ Your task is to create the core logic that checks which gesture wins in a matchu
 This kata was paired on by Dave Schinkel and Turk
 
 ### IntelliJ
-To open an existing Kotlin or Java Project in IntelliJ:
+**To open this kata with IntelliJ:**
+
 - Choose *import project*
 - choose the _gradle.build_ file and open that
 - in preferences for **gradle | Runner** check the box _"Delegate IDE build/run to gradle"_ or else your tests won't compile
 
-Running the build manually, there are a couple ways:
+### Building
 
 **command-line**
-
+[Gradle Command-line](https://docs.gradle.org/current/userguide/command_line_interface.html)
 - `./gradlew clean build`
 - `gradle build`
 
-IntelliJ
-- Double click the "build" task in the gradle pane (this pane lives on the right of your IDE)
+**Two Ways to Create a Kotlin Gradle Project**
 
+- by running gradle init
+- by creating a Gradle Project of type Kotlin through the IntelliJ Create Project Dialog
 
-## Command-line history
+### Command-line history
 Lists the commands we made while performing the kata.
 
 Why?  Because It _might_ be helpful / interesting to look back at the commands we entered while we did this kata.
