@@ -35,6 +35,8 @@ IntelliJ
 
 
 ## Command-line history
+Lists the commands we made while performing the kata.
+
 Why?  Because It _might_ be helpful / interesting to look back at the commands we entered while we did this kata.
 
 Dave uses [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) so you are seeing the following aliases below:
