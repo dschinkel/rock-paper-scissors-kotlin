@@ -33,8 +33,8 @@ This kata was paired on by Dave Schinkel and Turk
 
 **Two Ways to Create a Kotlin Gradle Project**
 
-- by running gradle init
-- by creating a Gradle Project of type Kotlin through the IntelliJ Create Project Dialog
+- by running `gradle init`
+- by creating a `Gradle` Project of type `Kotlin` through the IntelliJ Create Project Dialog
 
 ### Command-line history
 Lists the commands we made while performing the kata.
