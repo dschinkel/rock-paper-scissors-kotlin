@@ -15,8 +15,24 @@ Your task is to create the core logic that checks which gesture wins in a matchu
 ... and so on. Good luck!
 
 
-<<<<<<< HEAD
 This kata was paired on by Dave Schinkel and Turk
+
+### IntelliJ
+To open an existing Kotlin or Java Project in IntelliJ:
+- Choose *import project*
+- choose the _gradle.build_ file and open that
+- in preferences for **gradle | Runner** check the box _"Delegate IDE build/run to gradle"_ or else your tests won't compile
+
+Running the build manually, there are a couple ways:
+
+**command-line**
+
+- `./gradlew clean build`
+- `gradle build`
+
+IntelliJ
+- Double click the "build" task in the gradle pane (this pane lives on the right of your IDE)
+
 
 ## Command-line history
 Why?  Because It _might_ be helpful / interesting to look back at the commands we entered while we did this kata.
@@ -67,20 +83,3 @@ gp
 ga .
 gcmsg "Add credits"
 ```
-=======
-### IntelliJ
-To open an existing Kotlin or Java Project in IntelliJ:
-- Choose *import project*
-- choose the _gradle.build_ file and open that
-- in preferences for **gradle | Runner** check the box _"Delegate IDE build/run to gradle"_ or else your tests won't compile
-
-Running the build manually, there are a couple ways:
-
-**command-line**
-
-- `./gradlew clean build`
-- `gradle build`
-
-IntelliJ
-- Double click the "build" task in the gradle pane (this pane lives on the right of your IDE)
->>>>>>> beb24e5658f8c8f99f69d849ad542fe7f0b85f13
